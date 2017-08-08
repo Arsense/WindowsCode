@@ -1,0 +1,29 @@
+﻿生成启动时间为 2017/2/14 13:33:03。
+     1>项目“H:\mycode\Prepare\UsnUpdataDemo\UsnUpdataDemo.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\UsnUpdataDemo.tlog\UsnUpdataDemo.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Debug\UsnUpdataDemo.tlog\unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\VS2015\VS2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\UsnUpdataDemo.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\VS2015\VS2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\UsnUpdataDemo.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt UsnUpdataDemo.cpp
+         UsnUpdataDemo.cpp
+     1>h:\mycode\prepare\usnupdatademo\usnupdatademo.cpp(39): warning C4129: “%”: 不可识别的字符转义序列
+     1>h:\mycode\prepare\usnupdatademo\usnupdatademo.cpp(46): warning C4129: “%”: 不可识别的字符转义序列
+     1>h:\mycode\prepare\usnupdatademo\usnupdatademo.cpp(48): warning C4129: “%”: 不可识别的字符转义序列
+     1>h:\mycode\prepare\usnupdatademo\usnupdatademo.cpp(72): warning C4838: 从“int”转换到“DWORD”需要收缩转换
+     1>h:\mycode\prepare\usnupdatademo\usnupdatademo.cpp(268): warning C4477: 'printf' : format string '%.*S' requires an argument of type 'wchar_t *', but variadic argument 2 has type 'PWCH *'
+         h:\mycode\prepare\usnupdatademo\usnupdatademo.cpp(268): note: this argument is used by a conversion specifier
+       Link:
+         D:\VS2015\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\mycode\Prepare\Debug\UsnUpdataDemo.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"H:\mycode\Prepare\Debug\UsnUpdataDemo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\mycode\Prepare\Debug\UsnUpdataDemo.lib" /MACHINE:X86 Debug\stdafx.obj
+         Debug\UsnUpdataDemo.obj
+         UsnUpdataDemo.vcxproj -> H:\mycode\Prepare\Debug\UsnUpdataDemo.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\UsnUpdataDemo.tlog\unsuccessfulbuild”。
+         正在对“Debug\UsnUpdataDemo.tlog\UsnUpdataDemo.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\mycode\Prepare\UsnUpdataDemo\UsnUpdataDemo.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.59

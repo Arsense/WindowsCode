@@ -1,0 +1,19 @@
+﻿生成启动时间为 2017/2/13 23:53:10。
+     1>项目“H:\mycode\Prepare\UsnUpdateTest\UsnUpdateTest.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\UsnUpdateTest.tlog\unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       Link:
+         D:\VS2015\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\mycode\Prepare\Debug\UsnUpdateTest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='highestAvailable' uiAccess='false'" /manifest:embed /Debug /PDB:"H:\mycode\Prepare\Debug\UsnUpdateTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\mycode\Prepare\Debug\UsnUpdateTest.lib" /MACHINE:X86 Debug\stdafx.obj
+         Debug\UsnUpdateTest.obj
+         UsnUpdateTest.vcxproj -> H:\mycode\Prepare\Debug\UsnUpdateTest.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\UsnUpdateTest.tlog\unsuccessfulbuild”。
+         正在对“Debug\UsnUpdateTest.tlog\UsnUpdateTest.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\mycode\Prepare\UsnUpdateTest\UsnUpdateTest.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.47

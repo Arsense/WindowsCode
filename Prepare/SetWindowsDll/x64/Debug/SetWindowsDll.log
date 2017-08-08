@@ -1,0 +1,37 @@
+﻿生成启动时间为 2017/2/1 11:27:01。
+     1>项目“H:\mycode\Prepare\SetWindowsDll\SetWindowsDll.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“x64\Debug\SetWindowsDll.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         F:\网络安全\VS2010\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _DEBUG /D _WINDOWS /D _USRDLL /D SETWINDOWSDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+     1>dllmain.cpp(14): warning C4129: “m”: 不可识别的字符转义序列
+     1>dllmain.cpp(14): warning C4129: “P”: 不可识别的字符转义序列
+     1>dllmain.cpp(14): warning C4129: “S”: 不可识别的字符转义序列
+     1>dllmain.cpp(47): warning C4244: “return”: 从“LRESULT”转换到“int”，可能丢失数据
+     1>dllmain.cpp(66): warning C4244: “return”: 从“LRESULT”转换到“int”，可能丢失数据
+     1>dllmain.cpp(72): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>dllmain.cpp(75): warning C4244: “return”: 从“LRESULT”转换到“int”，可能丢失数据
+     1>dllmain.cpp(79): warning C4244: “return”: 从“LRESULT”转换到“int”，可能丢失数据
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         F:\网络安全\VS2010\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"H:\mycode\Prepare\x64\Debug\SetWindowsDll.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\SetWindowsDll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\mycode\Prepare\x64\Debug\SetWindowsDll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\mycode\Prepare\x64\Debug\SetWindowsDll.lib" /MACHINE:X64 /DLL x64\Debug\SetWindowsDll.dll.embed.manifest.res
+         x64\Debug\dllmain.obj
+         x64\Debug\SetWindowsDll.obj
+         x64\Debug\stdafx.obj
+     1>dllmain.obj : error LNK2019: 无法解析的外部符号 __imp_send，该符号在函数 "int __cdecl inject(int,unsigned __int64,__int64)" (?inject@@YAHH_K_J@Z) 中被引用
+     1>dllmain.obj : error LNK2019: 无法解析的外部符号 __imp_connect，该符号在函数 "int __cdecl inject(int,unsigned __int64,__int64)" (?inject@@YAHH_K_J@Z) 中被引用
+     1>dllmain.obj : error LNK2019: 无法解析的外部符号 __imp_htons，该符号在函数 "int __cdecl inject(int,unsigned __int64,__int64)" (?inject@@YAHH_K_J@Z) 中被引用
+     1>dllmain.obj : error LNK2019: 无法解析的外部符号 __imp_inet_addr，该符号在函数 "int __cdecl inject(int,unsigned __int64,__int64)" (?inject@@YAHH_K_J@Z) 中被引用
+     1>dllmain.obj : error LNK2019: 无法解析的外部符号 __imp_socket，该符号在函数 "int __cdecl inject(int,unsigned __int64,__int64)" (?inject@@YAHH_K_J@Z) 中被引用
+     1>dllmain.obj : error LNK2019: 无法解析的外部符号 __imp_WSAGetLastError，该符号在函数 "int __cdecl inject(int,unsigned __int64,__int64)" (?inject@@YAHH_K_J@Z) 中被引用
+     1>dllmain.obj : error LNK2019: 无法解析的外部符号 __imp_WSAStartup，该符号在函数 "int __cdecl inject(int,unsigned __int64,__int64)" (?inject@@YAHH_K_J@Z) 中被引用
+     1>H:\mycode\Prepare\x64\Debug\SetWindowsDll.dll : fatal error LNK1120: 7 个无法解析的外部命令
+     1>已完成生成项目“H:\mycode\Prepare\SetWindowsDll\SetWindowsDll.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.91

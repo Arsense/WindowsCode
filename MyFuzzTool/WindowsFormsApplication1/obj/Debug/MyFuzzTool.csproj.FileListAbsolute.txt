@@ -1,0 +1,8 @@
+C:\Users\伟\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\MyFuzzTool.Properties.Resources.resources
+C:\Users\伟\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\MyFuzzTool.csproj.GenerateResource.Cache
+C:\Users\伟\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\MyFuzzTool.exe.config
+C:\Users\伟\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\MyFuzzTool.exe
+C:\Users\伟\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\MyFuzzTool.pdb
+C:\Users\伟\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmFileFuzz.resources
+C:\Users\伟\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\MyFuzzTool.exe
+C:\Users\伟\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\MyFuzzTool.pdb

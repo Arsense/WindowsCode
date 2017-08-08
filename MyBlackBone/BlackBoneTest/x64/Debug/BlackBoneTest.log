@@ -1,0 +1,27 @@
+﻿生成启动时间为 2017/3/6 17:18:36。
+     1>项目“H:\mycode\MyBlackBone\BlackBoneTest\BlackBoneTest.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“x64\Debug\BlackBoneTest.tlog\BlackBoneTest.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“x64\Debug\BlackBoneTest.tlog\unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\VS2015\VS2015\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"x64\Debug\BlackBoneTest.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\VS2015\VS2015\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Debug\BlackBoneTest.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt BlackBoneTest.cpp Process\Process.cpp Process\ProcessCore.cpp
+         ProcessCore.cpp
+     1>h:\mycode\myblackbone\blackbonetest\process\processcore.cpp(1): warning C4627: “#include "../stdafx.h"”: 在查找预编译头使用时跳过
+         h:\mycode\myblackbone\blackbonetest\process\processcore.cpp(1): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>h:\mycode\myblackbone\blackbonetest\process\processcore.cpp(3): warning C4627: “#include "ProcessCore.h"”: 在查找预编译头使用时跳过
+         h:\mycode\myblackbone\blackbonetest\process\processcore.cpp(3): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>h:\mycode\myblackbone\blackbonetest\process\processcore.cpp(41): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         Process.cpp
+     1>h:\mycode\myblackbone\blackbonetest\process\process.cpp(1): warning C4627: “#include "Process.h"”: 在查找预编译头使用时跳过
+         h:\mycode\myblackbone\blackbonetest\process\process.cpp(1): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>h:\mycode\myblackbone\blackbonetest\process\process.cpp(40): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         BlackBoneTest.cpp
+         正在生成代码...
+     1>已完成生成项目“H:\mycode\MyBlackBone\BlackBoneTest\BlackBoneTest.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.89

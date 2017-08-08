@@ -1,0 +1,23 @@
+﻿生成启动时间为 2017/3/6 16:07:16。
+     1>项目“H:\mycode\MyBlackBone\src\TestApp\TestApp.vcxproj”在节点 2 上(Build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“H:\mycode\MyBlackBone\src\TestApp\\Win32\Debug\TestApp.tlog\”。
+       InitializeBuildStatus:
+         正在创建“H:\mycode\MyBlackBone\src\TestApp\\Win32\Debug\TestApp.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\VS2015\VS2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"H:\mycode\MyBlackBone\src\TestApp\\Win32\Debug\TestApp.pch" /Fo"H:\mycode\MyBlackBone\src\TestApp\\Win32\Debug\\" /Fd"H:\mycode\MyBlackBone\src\TestApp\\Win32\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\VS2015\VS2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"H:\mycode\MyBlackBone\src\TestApp\\Win32\Debug\TestApp.pch" /Fo"H:\mycode\MyBlackBone\src\TestApp\\Win32\Debug\\" /Fd"H:\mycode\MyBlackBone\src\TestApp\\Win32\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt TestApp.cpp
+         TestApp.cpp
+       Link:
+         D:\VS2015\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\mycode\MyBlackBone\build\Win32\Debug\TestApp.exe" /INCREMENTAL /NOLOGO mscoree.lib dbghelp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"H:\mycode\MyBlackBone\build\Win32\Debug\TestApp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\mycode\MyBlackBone\build\Win32\Debug\TestApp.lib" /MACHINE:X86 H:\mycode\MyBlackBone\src\TestApp\\Win32\Debug\stdafx.obj
+         H:\mycode\MyBlackBone\src\TestApp\\Win32\Debug\TestApp.obj
+     1>TestApp.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall blackbone::Process::Process(void)" (??0Process@blackbone@@QAE@XZ)，该符号在函数 _main 中被引用
+     1>TestApp.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall blackbone::Process::~Process(void)" (??1Process@blackbone@@QAE@XZ)，该符号在函数 _main 中被引用
+     1>TestApp.obj : error LNK2019: 无法解析的外部符号 "public: long __thiscall blackbone::Process::Attach(unsigned long,unsigned long)" (?Attach@Process@blackbone@@QAEJKK@Z)，该符号在函数 _main 中被引用
+     1>H:\mycode\MyBlackBone\build\Win32\Debug\TestApp.exe : fatal error LNK1120: 3 个无法解析的外部命令
+     1>已完成生成项目“H:\mycode\MyBlackBone\src\TestApp\TestApp.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.70

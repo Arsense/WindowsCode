@@ -1,0 +1,25 @@
+﻿生成启动时间为 2017/2/6 8:00:05。
+     1>项目“H:\mycode\Prepare\逆向\逆向.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\逆向.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         D:\VS2015\VS2015\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\逆向.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "逆向.cpp"
+         逆向.cpp
+       Link:
+         D:\VS2015\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\mycode\Prepare\Release\逆向.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"H:\mycode\Prepare\Release\逆向.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\mycode\Prepare\Release\逆向.lib" /MACHINE:X86 /SAFESEH Release\stdafx.obj
+         "Release\逆向.obj"
+         正在生成代码
+         1 of 2 functions (50.0%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           1 functions had inline decision re-evaluated but remain unchanged
+         已完成代码的生成
+         逆向.vcxproj -> H:\mycode\Prepare\Release\逆向.exe
+       FinalizeBuildStatus:
+         正在删除文件“Release\逆向.tlog\unsuccessfulbuild”。
+         正在对“Release\逆向.tlog\逆向.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\mycode\Prepare\逆向\逆向.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:04.00

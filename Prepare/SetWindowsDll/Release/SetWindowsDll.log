@@ -1,0 +1,17 @@
+﻿生成启动时间为 2017/2/1 11:35:02。
+     1>项目“H:\mycode\Prepare\SetWindowsDll\SetWindowsDll.vcxproj”在节点 3 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Release\SetWindowsDll.tlog\unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         D:\VS2015\VS2015\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D SETWINDOWSDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+     1>dllmain.cpp(16): warning C4129: “m”: 不可识别的字符转义序列
+     1>dllmain.cpp(16): warning C4129: “P”: 不可识别的字符转义序列
+     1>dllmain.cpp(16): warning C4129: “S”: 不可识别的字符转义序列
+     1>dllmain.cpp(61): error C3861: “inet_pton”: 找不到标识符
+     1>已完成生成项目“H:\mycode\Prepare\SetWindowsDll\SetWindowsDll.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.77

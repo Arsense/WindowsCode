@@ -1,0 +1,15 @@
+﻿生成启动时间为 2017/3/6 9:47:28。
+     1>项目“H:\mycode\MyBlackBone\MyBlackBone\MyBlackBone.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“H:\mycode\MyBlackBone\Debug\”。
+         正在创建目录“Debug\MyBlackBone.tlog\”。
+       InitializeBuildStatus:
+         正在创建“Debug\MyBlackBone.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       FinalizeBuildStatus:
+         正在删除文件“Debug\MyBlackBone.tlog\unsuccessfulbuild”。
+         正在对“Debug\MyBlackBone.tlog\MyBlackBone.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\mycode\MyBlackBone\MyBlackBone\MyBlackBone.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.40

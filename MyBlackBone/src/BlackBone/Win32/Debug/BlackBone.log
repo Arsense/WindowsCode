@@ -1,0 +1,27 @@
+﻿生成启动时间为 2017/3/6 16:06:25。
+     1>项目“H:\mycode\MyBlackBone\src\BlackBone\BlackBone.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“H:\mycode\MyBlackBone\src\BlackBone\\Win32\Debug\BlackBone.tlog\BlackBone.lastbuildstate”。
+       PrepareForBuild:
+         正在创建目录“H:\mycode\MyBlackBone\build\Win32\Debug\”。
+       InitializeBuildStatus:
+         正在创建“H:\mycode\MyBlackBone\src\BlackBone\\Win32\Debug\BlackBone.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\VS2015\VS2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"H:\mycode\MyBlackBone\src\BlackBone\\Win32\Debug\\" /Fd"H:\mycode\MyBlackBone\src\BlackBone\\Win32\Debug\BlackBone.pdb" /Gd /TP /analyze- /errorReport:prompt Process\Process.cpp Process\ProcessCore.cpp
+         ProcessCore.cpp
+         Process.cpp
+         正在生成代码...
+       Lib:
+         D:\VS2015\VS2015\VC\bin\Lib.exe /OUT:"H:\mycode\MyBlackBone\build\Win32\Debug\BlackBone.lib" /NOLOGO H:\mycode\MyBlackBone\src\BlackBone\\Win32\Debug\Process.obj
+         H:\mycode\MyBlackBone\src\BlackBone\\Win32\Debug\ProcessCore.obj
+         BlackBone.vcxproj -> H:\mycode\MyBlackBone\build\Win32\Debug\BlackBone.lib
+       CopyFilesToOutputDirectory:
+         正在将文件从“H:\mycode\MyBlackBone\src\BlackBone\\Win32\Debug\BlackBone.pdb”复制到“H:\mycode\MyBlackBone\build\Win32\Debug\BlackBone.pdb”。
+       FinalizeBuildStatus:
+         正在删除文件“H:\mycode\MyBlackBone\src\BlackBone\\Win32\Debug\BlackBone.tlog\unsuccessfulbuild”。
+         正在对“H:\mycode\MyBlackBone\src\BlackBone\\Win32\Debug\BlackBone.tlog\BlackBone.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\mycode\MyBlackBone\src\BlackBone\BlackBone.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.37

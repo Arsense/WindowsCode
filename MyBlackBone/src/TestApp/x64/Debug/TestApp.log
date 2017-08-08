@@ -1,0 +1,23 @@
+﻿生成启动时间为 2017/3/6 17:22:59。
+     1>项目“H:\mycode\MyBlackBone\src\TestApp\TestApp.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“x64\Debug\TestApp.tlog\TestApp.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“x64\Debug\TestApp.tlog\unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\VS2015\VS2015\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"x64\Debug\TestApp.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\VS2015\VS2015\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Debug\TestApp.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt TestApp.cpp
+         TestApp.cpp
+       Link:
+         D:\VS2015\VS2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"H:\mycode\MyBlackBone\x64\Debug\TestApp.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"H:\mycode\MyBlackBone\x64\Debug\TestApp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\mycode\MyBlackBone\x64\Debug\TestApp.lib" /MACHINE:X64 x64\Debug\stdafx.obj
+         x64\Debug\TestApp.obj
+     1>TestApp.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl blackbone::Process::Process(void)" (??0Process@blackbone@@QEAA@XZ)，该符号在函数 main 中被引用
+     1>TestApp.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl blackbone::Process::~Process(void)" (??1Process@blackbone@@QEAA@XZ)，该符号在函数 main 中被引用
+     1>TestApp.obj : error LNK2019: 无法解析的外部符号 "public: long __cdecl blackbone::Process::Attach(unsigned long,unsigned long)" (?Attach@Process@blackbone@@QEAAJKK@Z)，该符号在函数 main 中被引用
+     1>H:\mycode\MyBlackBone\x64\Debug\TestApp.exe : fatal error LNK1120: 3 个无法解析的外部命令
+     1>已完成生成项目“H:\mycode\MyBlackBone\src\TestApp\TestApp.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.25
