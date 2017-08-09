@@ -1,5 +1,6 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace MyFuzzTool
 {
+   
     partial class frmFileFuzz
     {
         /// <summary>
@@ -35,6 +36,8 @@
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.tclMain = new System.Windows.Forms.TabControl();
             this.create = new System.Windows.Forms.TabPage();
+            this.tbxSourceFile1 = new System.Windows.Forms.TextBox();
+            this.tbxTargetDirectory = new System.Windows.Forms.TextBox();
             this.gbxTarget = new System.Windows.Forms.GroupBox();
             this.lblTargetBytesMultiple = new System.Windows.Forms.Label();
             this.tbxTargetBytesNumber = new System.Windows.Forms.TextBox();
@@ -42,16 +45,13 @@
             this.tbxTargetByteFinish = new System.Windows.Forms.TextBox();
             this.lbltbxTargetBytes = new System.Windows.Forms.Label();
             this.gbxScope = new System.Windows.Forms.GroupBox();
-           ;
             this.lblRegexReplace = new System.Windows.Forms.Label();
             this.lblRegexFind = new System.Windows.Forms.Label();
-  
             this.lblRangeStart = new System.Windows.Forms.Label();
             this.rbtRegex = new System.Windows.Forms.RadioButton();
             this.rbtDepth = new System.Windows.Forms.RadioButton();
             this.rbtRange = new System.Windows.Forms.RadioButton();
             this.rbtAllBytes = new System.Windows.Forms.RadioButton();
-          
             this.lblTargetDirectory = new System.Windows.Forms.Label();
             this.lblSourceFile = new System.Windows.Forms.Label();
             this.execute = new System.Windows.Forms.TabPage();
@@ -72,6 +72,13 @@
             this.mnuFileExit = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuEdit = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuEditCopy = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnSourceFile = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.btnTargetDirectory = new System.Windows.Forms.Button();
+            this.btnCreateFiles = new System.Windows.Forms.Button();
+            this.ofdSourceFile = new System.Windows.Forms.OpenFileDialog();
+            this.fbdTargetDirectory = new System.Windows.Forms.FolderBrowserDialog();
             this.tclMain.SuspendLayout();
             this.create.SuspendLayout();
             this.gbxTarget.SuspendLayout();
@@ -132,10 +139,10 @@
             // 
             // create
             // 
+            this.create.Controls.Add(this.tbxSourceFile1);
+            this.create.Controls.Add(this.tbxTargetDirectory);
             this.create.Controls.Add(this.gbxTarget);
             this.create.Controls.Add(this.gbxScope);
-            this.create.Controls.Add(this.textBox2);
-            this.create.Controls.Add(this.textBox1);
             this.create.Controls.Add(this.lblTargetDirectory);
             this.create.Controls.Add(this.lblSourceFile);
             this.create.Location = new System.Drawing.Point(4, 28);
@@ -144,6 +151,21 @@
             this.create.Size = new System.Drawing.Size(782, 426);
             this.create.TabIndex = 0;
             this.create.Text = "Create";
+            // 
+            // tbxSourceFile1
+            // 
+            this.tbxSourceFile1.Location = new System.Drawing.Point(31, 63);
+            this.tbxSourceFile1.Name = "tbxSourceFile1";
+            this.tbxSourceFile1.Size = new System.Drawing.Size(745, 25);
+            this.tbxSourceFile1.TabIndex = 6;
+            this.tbxSourceFile1.TextChanged += new System.EventHandler(this.textBox8_TextChanged);
+            // 
+            // tbxTargetDirectory
+            // 
+            this.tbxTargetDirectory.Location = new System.Drawing.Point(31, 140);
+            this.tbxTargetDirectory.Name = "tbxTargetDirectory";
+            this.tbxTargetDirectory.Size = new System.Drawing.Size(745, 25);
+            this.tbxTargetDirectory.TabIndex = 5;
             // 
             // gbxTarget
             // 
@@ -204,13 +226,8 @@
             // 
             // gbxScope
             // 
-            this.gbxScope.Controls.Add(this.textBox6);
-            this.gbxScope.Controls.Add(this.textBox5);
-            this.gbxScope.Controls.Add(this.textBox4);
-            this.gbxScope.Controls.Add(this.textBox3);
             this.gbxScope.Controls.Add(this.lblRegexReplace);
             this.gbxScope.Controls.Add(this.lblRegexFind);
-            this.gbxScope.Controls.Add(this.label2);
             this.gbxScope.Controls.Add(this.lblRangeStart);
             this.gbxScope.Controls.Add(this.rbtRegex);
             this.gbxScope.Controls.Add(this.rbtDepth);
@@ -223,34 +240,6 @@
             this.gbxScope.TabIndex = 4;
             this.gbxScope.TabStop = false;
             this.gbxScope.Text = "Scope";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(238, 145);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(105, 24);
-            this.textBox6.TabIndex = 34;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(238, 113);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(91, 24);
-            this.textBox5.TabIndex = 33;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(238, 31);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(86, 24);
-            this.textBox4.TabIndex = 32;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(238, 75);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(86, 24);
-            this.textBox3.TabIndex = 31;
             // 
             // lblRegexReplace
             // 
@@ -273,17 +262,6 @@
             this.lblRegexFind.TabIndex = 6;
             this.lblRegexFind.Text = "Find";
             this.lblRegexFind.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("微软雅黑", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(152, 75);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 19);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Location";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // lblRangeStart
             // 
@@ -343,21 +321,6 @@
             this.rbtAllBytes.TabStop = true;
             this.rbtAllBytes.Text = "All Bytes";
             this.rbtAllBytes.UseVisualStyleBackColor = true;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(31, 142);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(661, 25);
-            this.textBox2.TabIndex = 3;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(31, 58);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(661, 25);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.Click += new System.EventHandler(this.tbxSourceFile);
             // 
             // lblTargetDirectory
             // 
@@ -519,7 +482,7 @@
             this.mnuEdit});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(814, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1071, 28);
             this.menuStrip1.TabIndex = 28;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -551,12 +514,73 @@
             this.mnuEditCopy.Size = new System.Drawing.Size(122, 26);
             this.mnuEditCopy.Text = "&Copy";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 29;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // btnSourceFile
+            // 
+            this.btnSourceFile.Location = new System.Drawing.Point(804, 179);
+            this.btnSourceFile.Name = "btnSourceFile";
+            this.btnSourceFile.Size = new System.Drawing.Size(150, 33);
+            this.btnSourceFile.TabIndex = 7;
+            this.btnSourceFile.Text = "Select";
+            this.btnSourceFile.UseVisualStyleBackColor = true;
+            this.btnSourceFile.Click += new System.EventHandler(this.btnSourceFile_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(804, 547);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(156, 44);
+            this.button3.TabIndex = 30;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // btnTargetDirectory
+            // 
+            this.btnTargetDirectory.Location = new System.Drawing.Point(808, 254);
+            this.btnTargetDirectory.Name = "btnTargetDirectory";
+            this.btnTargetDirectory.Size = new System.Drawing.Size(141, 36);
+            this.btnTargetDirectory.TabIndex = 31;
+            this.btnTargetDirectory.Text = "Select";
+            this.btnTargetDirectory.UseVisualStyleBackColor = true;
+            this.btnTargetDirectory.Click += new System.EventHandler(this.btnTargetDirectory_Click);
+            // 
+            // btnCreateFiles
+            // 
+            this.btnCreateFiles.Location = new System.Drawing.Point(807, 307);
+            this.btnCreateFiles.Name = "btnCreateFiles";
+            this.btnCreateFiles.Size = new System.Drawing.Size(147, 36);
+            this.btnCreateFiles.TabIndex = 32;
+            this.btnCreateFiles.Text = "Create";
+            this.btnCreateFiles.UseVisualStyleBackColor = true;
+            // 
+            // ofdSourceFile
+            // 
+            this.ofdSourceFile.FileName = "openFileDialog1";
+            this.ofdSourceFile.Filter = "All files (*.*)|*.*|All files (*.*)|*.*";
+            this.ofdSourceFile.FilterIndex = 2;
+            this.ofdSourceFile.InitialDirectory = "c:\\";
+            this.ofdSourceFile.RestoreDirectory = true;
+            this.ofdSourceFile.Title = "Select Source File";
+            // 
             // frmFileFuzz
             // 
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(814, 577);
+            this.ClientSize = new System.Drawing.Size(1071, 739);
+            this.Controls.Add(this.btnCreateFiles);
+            this.Controls.Add(this.btnTargetDirectory);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnSourceFile);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.tclMain);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.cbxStripFileExt);
@@ -567,6 +591,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmFileFuzz";
             this.Text = "FileFuzz";
+            this.Load += new System.EventHandler(this.frmFileFuzz_Load);
             this.tclMain.ResumeLayout(false);
             this.create.ResumeLayout(false);
             this.create.PerformLayout();
@@ -632,6 +657,15 @@
         private System.Windows.Forms.Label lblFinishFile;
         private System.Windows.Forms.Label lblStartFile;
         private System.Windows.Forms.TextBox tbxCount;
+        private System.Windows.Forms.TextBox tbxSourceFile1;
+        private System.Windows.Forms.TextBox tbxTargetDirectory;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnSourceFile;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnTargetDirectory;
+        private System.Windows.Forms.Button btnCreateFiles;
+        private System.Windows.Forms.OpenFileDialog ofdSourceFile;
+        private System.Windows.Forms.FolderBrowserDialog fbdTargetDirectory;
     }
 }
 

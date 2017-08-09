@@ -6,3 +6,12 @@ C:\Users\伟\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug
 C:\Users\伟\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmFileFuzz.resources
 C:\Users\伟\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\MyFuzzTool.exe
 C:\Users\伟\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\MyFuzzTool.pdb
+H:\github\WindowsCode\MyFuzzTool\WindowsFormsApplication1\bin\Debug\MyFuzzTool.exe.config
+H:\github\WindowsCode\MyFuzzTool\WindowsFormsApplication1\obj\Debug\MyFuzzTool.exe
+H:\github\WindowsCode\MyFuzzTool\WindowsFormsApplication1\obj\Debug\MyFuzzTool.pdb
+H:\github\WindowsCode\MyFuzzTool\WindowsFormsApplication1\bin\Debug\MyFuzzTool.exe
+H:\github\WindowsCode\MyFuzzTool\WindowsFormsApplication1\bin\Debug\MyFuzzTool.pdb
+H:\github\WindowsCode\MyFuzzTool\WindowsFormsApplication1\obj\Debug\MyFuzzTool.csprojResolveAssemblyReference.cache
+H:\github\WindowsCode\MyFuzzTool\WindowsFormsApplication1\obj\Debug\MyFuzzTool.Properties.Resources.resources
+H:\github\WindowsCode\MyFuzzTool\WindowsFormsApplication1\obj\Debug\MyFuzzTool.csproj.GenerateResource.Cache
+H:\github\WindowsCode\MyFuzzTool\WindowsFormsApplication1\obj\Debug\MyFuzzTool.frmFileFuzz.resources
